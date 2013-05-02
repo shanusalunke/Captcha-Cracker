@@ -1,9 +1,3 @@
-#REMEMBER:
-    # Include an invert clause in threholding. If the background is w-on-b instead of b-on-w, invert colours
-    # when using '' => \\'
-    # when using "" => \"   
-    # keep mynet, myds, etc as global variables or private class var ?
-    # add init_module funcs that import all required libs (eg. init_learning: import pybrain)
 
 #from skimage.morphology import watershed, is_local_maximum
 from skimage.morphology import *
