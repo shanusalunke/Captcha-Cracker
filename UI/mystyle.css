@@ -1,0 +1,178 @@
+.back{
+line-height:150%;
+max-width:100%;
+overflow-x: hidden;
+padding:0px;
+margin:0px;
+font-family: serif, monospace;
+background-color: #F8F8F8;
+}
+
+.logo{
+width: 100px;
+height: 100px;
+}
+
+fieldset{
+border-color: #098772;
+margin: 0px;
+padding: 0px;
+}
+
+legend{
+color: #098772;
+}
+.header{
+max-width: 100%;
+height: 40px;
+padding: 10px;
+margin: 10px;
+color: #098772;
+font-size: 50pt;
+vertical-align:top;
+text-align: left;
+line-height:100%;
+}
+
+.header a{
+font-size: 12pt;
+position: absolute;
+text-align:right;
+}
+.footer{
+width: 100%;
+}
+.navig{
+position:absolute;
+left:10px;
+width:19%;
+text-align:left;
+background-color: #098772;
+color: white;
+}
+
+.navig a{
+height: 50px;
+width:20%;
+text-decoration: none;
+color: white;
+font-size:25px;
+margin: 20px;
+}
+
+.navig  a:hover, a:active{
+width:20%;
+height: 50px;
+}
+
+.navig a:visited{
+color: white;
+}
+
+.mainframe{
+width:80%;
+min-height:80%;
+padding:20px;
+position:absolute;
+right:0px;
+border-style:solid;
+border-width:1px;
+border-color: #098772;
+background-color:white;
+}
+
+.mybox{
+padding:20px;
+max-width:100%;
+padding:15px;
+margin:15px;
+}
+
+.mybox img{
+width:100px;
+height:50px;
+}
+
+.mybox fieldset{
+padding:15px;
+margin:15px;
+}
+
+.mybox  input{
+padding:5px;
+margin:5px;
+}
+
+.mybox a, a.img{
+text-decoration: none;
+margin: 10px;
+color: white;
+}
+
+.question_div{
+display:none;
+color: #098772;
+}
+
+.question_img{
+width: 5px;
+height: 5px;
+
+}
+
+a.button ,a.button:active{
+color: black;
+text-decoration: none;
+border:2px solid #098772;
+width: 150px;
+height: 30px;
+background-color: white;
+margin: 10px;
+padding: 5px;
+line-height:100%;
+text-align: center;
+}
+
+a.button:hover{
+background-color: #098772;
+color: white;
+}
+
+a.hide_button ,a.hide_button:active{
+color: black;
+visibility:hidden;
+text-decoration: none;
+border:2px solid #098772;
+width: 150px;
+height: 30px;
+background-color: white;
+margin: 10px;
+padding: 5px;
+line-height:100%;
+text-align: center;
+}
+
+a.hide_button:hover{
+background-color: #098772;
+color: white;
+}
+
+.result_table img{
+width: 200px;
+height:100px;
+}
+
+.result_table, .result_table table, th, td{
+border-style:solid;
+border-width:1px;
+border-color: #098772;
+}
+
+.manual, .manual h3{
+font-size: 12px;
+}
+
+ .manual a{
+ color: #098772;
+ font-size: 12px;
+}

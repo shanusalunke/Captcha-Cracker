@@ -1,0 +1,79 @@
+
+<html> 
+ <head>        
+<HTA:APPLICATION 
+   ID="Devloper's Corner"
+   NAVIGABLE="yes" 
+   BORDER="thick" 
+   BORDERSTYLE="complex"
+   ICON = "icon.ico"
+   WINDOWSTATE="maximize"
+   /> 
+  <title> CAPTCHA CRACKER </title>
+<script language="javascript" type="text/javascript" src="myscript.js"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+ </head> 
+  <body class="back"> 
+ <div class="header">
+ <img class="logo" src="C:\\Python27\\Captcha_Cracker\\cgi-bin\\logo.png"/>
+	CAPTCHA CRACKER
+ </div>
+	
+ <div class="navig" >
+ 
+ <a href="input.hta"> Start Cracking </a> <br>
+ <a href="learn.hta"> Learn More </a><br>
+ <a href="dev_corner.hta" target="_self"> Developer's Corner </a><br>
+ <a href="user_manual.hta"> Quick Start </a><br>
+
+ </div>
+ <div class="mainframe" id="mainframe">
+	The developer's corner provides documentation and tools to allow for creation of dataset, training, testing and other such
+	activities.
+	<br>
+	CPT Name refers to the algorithm being used to crack the images. Ensure the py file is present in the Algorithms folder
+	before proceeding.
+	<br>
+	<form class="mybox" name="dev_corner_form"> 
+	<fieldset>
+	<legend>ENTER CAPTCHA DETAILS:</legend><br>
+	Enter Image Folder Path:: <input type=text name="folder_path" id="folder_path"> <br>
+	Enter CPT name: <input type=text name="cpt_name" id="cpt_name"><br>
+	Select Set Type:
+	<select id="set_Type" >
+	<option value="0">0</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	</select>
+	<img src="images\question.jpg" class="question_img" onMouseOver="javascript:showInfo('set_t')" onMouseOut="javascript:hideInfo('set_t')">
+	<br>
+	<a class="button" href="javascript:DevCreateVectors()"> Create Vectors</a>
+	<a class="button" href="javascript:DevTrain()"> Train Net on DS </a>
+	<a class="button" href="javascript:DevRun()"> Run Test </a>
+	</fieldset>
+	
+	<div id="set_t"class="question_div">
+	Type          Character Domain<br>
+	------------------------------<br>
+	0             Lower Case<br>
+	1             Upper Case<br>
+	2             Numbers<br>
+	3             Lower case + Upper<br>
+	4             Lower case + Numbers<br>
+	5             Upper Case + Numbers<br>
+	6             Lower Case + Upper Case + Numbers<br>
+	</div>
+	</form>   
+</div>
+
+<div class="footer">
+
+</div>
+
+
+ </body> 
+</html> 

@@ -1,0 +1,102 @@
+
+<html> 
+<head>      
+<HTA:APPLICATION 
+   ID="Devloper's Corner"
+   NAVIGABLE="yes" 
+   BORDER="normal" 
+   BORDERSTYLE="raised"
+   ICON = "icon.ico"
+   WINDOWSTATE="maximize"
+   /> 
+<title> CAPTCHA CRACKER </title>
+<script language="javascript" type="text/javascript" src="myscript.js"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+ </head> 
+ 
+ <body class="back"> 
+
+ <div class="header">
+ <img class="logo" src="C:\\Python27\\Captcha_Cracker\\cgi-bin\\logo.png"/>
+	CAPTCHA CRACKER
+ </div>
+ 
+ <div class="navig">
+ 
+ <a href="input.hta"> Start Cracking </a> <br>
+ <a href="learn.hta"> Learn More </a><br>
+ <a href="dev_corner.hta" target="_self"> Developer's Corner </a><br>
+ <a href="user_manual.hta"> Quick Start </a><br>
+
+ </div>
+ <div class="mainframe" id="mainframe">
+	<form class="mybox" name="input_form">
+	<fieldset class="mybox">
+	<legend>ENTER CAPTCHA DETAILS:</legend><br>
+	Enter Path to Folder: <input type="text" name="folder_path"/> <img class="question_img"src="images\question.jpg"  onMouseOver="javascript:showInfo('img_folder')" onMouseOut="javascript:hideInfo('img_folder')"><div id="img_folder"class="question_div">Enter path to folder where CAPTCHAs reside</div>
+	<br>
+	Enter Number of Images:<input type="number" name="number_crack"/> <img class="question_img" src="images\question.jpg" onMouseOver="javascript:showInfo('no_img')" onMouseOut="javascript:hideInfo('no_img')"><div id="no_img"class="question_div">Enter number of images to crack</div>
+	</fieldset>
+
+	<fieldset class="mybox">
+	<legend>SELECT ALGORITHM:</legend><br>	
+	<a href="javascript:setAlgo('CPT 1.py')"><img src="images\CPT 1.jpg"/></a>
+	<!--
+	<a href="javascript:setAlgo('CPT 2.py')"><img src="images\CPT 2.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 3.py')"><img src="images\CPT 3.jpg"/></a>
+	-->
+	<a href="javascript:setAlgo('CPT 4.py')"><img src="images\CPT 4.jpg"/></a>
+	<!--
+	<a href="javascript:setAlgo('CPT 5.py')"><img src="images\CPT 5.jpg"/></a>
+	-->
+	<a href="javascript:setAlgo('CPT 6.py')"><img src="images\CPT 6.jpg"/></a>
+	<!--
+	<a href="javascript:setAlgo('CPT 7.py')"><img src="images\CPT 7.jpg"/></a>
+	-->
+	<a href="javascript:setAlgo('CPT 8.py')"><img src="images\CPT 8.jpg"/></a>
+	
+	<a href="javascript:setAlgo('CPT 9.py')"><img src="images\CPT 9.jpg"/></a>
+	
+	<a href="javascript:setAlgo('CPT 10.py')"><img src="images\CPT 10.jpg"/></a>
+	
+	<a href="javascript:setAlgo('CPT 11.py')"><img src="images\CPT 11.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 12.py')"><img src="images\CPT 12.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 13.py')"><img src="images\CPT 13.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 14.py')"><img src="images\CPT 14.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 15.py')"><img src="images\CPT 15.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 17.py')"><img src="images\CPT 17.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 18.py')"><img src="images\CPT 18.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 19.py')"><img src="images\CPT 19.jpg"/></a>
+	
+	<a href="javascript:setAlgo('CPT 21.py')"><img src="images\CPT 21.jpg"/></a>
+	<!--
+	
+	<a href="javascript:setAlgo('CPT 20.py')"><img src="images\CPT 20.jpg"/></a>
+	
+	<a href="javascript:setAlgo('CPT 16.py')"><img src="images\CPT 16.jpg"/></a>
+	
+	
+	-->
+	<a href="javascript:setAlgo('CPT 22.py')"><img src="images\CPT 22.jpg"/></a>
+	<!--
+	<a href="javascript:setAlgo('CPT 23.py')"><img src="images\CPT 23.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 24.py')"><img src="images\CPT 24.jpg"/></a>
+	<a href="javascript:setAlgo('CPT 25.py')"><img src="images\CPT 25.jpg"/></a>
+	-->
+	
+	<a href="javascript:setAlgo('CPT 26.py')"><img src="images\CPT 26.jpg"/></a>
+	<!--
+	<a href="javascript:setAlgo('CPT 27.py')"><img src="images\CPT 27.jpg"/></a>
+	-->
+	<a href="javascript:setAlgo('CPT 29.py')"><img src="images\CPT 29.jpg"/></a>
+	</fieldset>
+	
+	<a class="button" href="javascript:getCracking()"> Get Crackin'</a>
+	<a class="hide_button" id="view_result" href="javascript:loadResult()"> View Result</a>
+	</form>
+</div>
+
+<div class="footer">
+</div>
+</body>
+</html> 
